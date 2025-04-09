@@ -1,0 +1,51 @@
+/* index.css */
+body {
+  background-color: #fdecda; /* beige */
+  font-family: "Cinzel", serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #556b2f; /* verde musgo */
+  margin-top: 40px;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #daa520; /* dorado */
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #b8860b;
+}
+
+input[type="file"] {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+img {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #d28ea0; /* rosa pastel */
+  font-weight: bold;
+  text-decoration: none;
+}
